@@ -1,0 +1,82 @@
+body{
+    background-image: url("background2.jpg");
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    background-size: cover;
+}
+
+header{
+    color: white;
+    text-align: center ;
+    background-color:rgba(10, 10, 10, 0.71) ;
+}
+h2{
+    text-align: center;
+}
+
+.automenu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(10, 10, 10, 0.71);
+    color: white;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin-top: 1%;
+}
+
+.klantmenu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(10, 10, 10, 0.71);
+    color: white;
+    width: 20%;
+    position: relative;
+    left: 40%;
+    margin-top: 5%;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.readklant{
+    background-color: rgba(10, 10, 10, 0.71);
+    color: white;
+    position: relative;
+    left: 30%;
+    margin-top: 5%;
+    width: 40%;
+
+}
+
+.readauto{
+    background-color: rgba(10, 10, 10, 0.71);
+    color: white;
+    position: relative;
+    left: 35%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+.readlink {
+    background-color: rgba(10, 10, 10, 0.71);
+    position: relative;
+    left: 45%;
+}
+
+form{
+    background-color: rgba(10, 10, 10, 0.71);
+    color: white;
+    position: relative;
+    left: 35%;
+    margin-top: 5%;
+    width: 30%;
+}
+
